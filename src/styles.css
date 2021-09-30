@@ -1,0 +1,64 @@
+:root {
+  --background: #a07855ff;
+  --text: #a07855ff;
+  --bgcolor: #d4b996ff;
+  --border: rgb(46, 46, 46);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background);
+}
+
+.App {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+main {
+  margin: 1rem;
+  display: grid;
+  place-items: center;
+}
+.genreList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.showBook li {
+  list-style-type: none;
+  text-align: left;
+  width: 300px;
+  margin: 1rem 0rem;
+  padding: 1rem;
+  background-color: var(--bgcolor);
+  border: 1px solid var(--text);
+  border-radius: 0.5rem;
+}
+.rating {
+  background-color: var(--bgcolor);
+  font-size: 1rem;
+  color: var(--border);
+}
+
+.genreList span {
+  cursor: pointer;
+  background-color: var(--bgcolor);
+  border: 1px solid var(--border);
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+hr {
+  width: 90%;
+}
+
+h1 {
+  padding-top: 2rem;
+}
