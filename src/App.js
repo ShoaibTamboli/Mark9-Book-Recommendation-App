@@ -33,6 +33,14 @@ export default function App() {
 
   return (
     <div className="App">
+      <p className="GitHub">
+        <a
+          href="https://github.com/ShoaibTamboli/Mark9-Book-Recommendation-App"
+          target="_blank"
+        >
+          GitHub
+        </a>
+      </p>
       <header>
         <h1>
           <span> 📚 </span>
